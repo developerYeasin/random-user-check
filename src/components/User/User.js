@@ -5,8 +5,9 @@ import './User.css'
 
 const User = (props) => {
     const [users, setUsers] = useState([])
+    const count = Math.round(Math.random() * 100);
     useEffect(() => {
-        fetch('https://randomuser.me/api/?results=8')
+        fetch(`https://randomuser.me/api/?results=${count}`)
         .then(res => res.json())
         .then(data => setUsers(data.results))
     }, [])
