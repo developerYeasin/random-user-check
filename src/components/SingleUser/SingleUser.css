@@ -1,0 +1,75 @@
+p{
+    margin: 0;
+    font-size: 15px;
+    font-weight: 500;
+}
+.user-card {
+    width: 22%;
+    margin: 18px;
+    padding: 20px 16px;
+    /* border: 1px solid springgreen; */
+    box-shadow: 0px 0px 14px 1px #00000017;
+    box-sizing: border-box;
+}
+.user-card .img img{
+    border-radius: 50%;
+}
+.user-card .img{
+    text-align: center;
+}
+.user-details{}
+.user-details .user-name{
+    text-align: center;
+    text-transform: capitalize;
+    line-height: 0px;
+}
+.user-details a{
+    text-decoration: none;
+    color: rgb(7, 179, 185);
+    font-weight: 500;
+}
+.user-details .user-email{}
+.user-details .user-number{}
+.user-details .user-number span{
+    width: 100%;
+    display: block;
+}
+.user-details .user-number span a{}
+.user-details .address span {
+    display: block;
+    color: #000;
+}
+.user-details .address {
+    margin: 10px 0px;
+    color: rgb(168, 39, 110);
+}
+.user-btn{
+    display: flex;
+    justify-content: space-around;
+}
+.user-details .check-btn {
+    color: #fff;
+    text-transform: uppercase;
+    background: rgb(4 121 76);
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 10px;
+}
+.user-details .message-btn{
+    color: #fff;
+    text-transform: uppercase;
+    background: rgb(0, 110, 255);
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 10px;
+}
+
+
+
+
