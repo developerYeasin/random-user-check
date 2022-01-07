@@ -6,10 +6,12 @@ import './User.css'
 const User = (props) => {
     const [users, setUsers] = useState([])
     const count = Math.round(Math.random() * 100);
+    //${count}
     useEffect(() => {
-        fetch(`https://randomuser.me/api/?results=${count}`)
+        fetch(`https://randomuser.me/api/?results=1`)
         .then(res => res.json())
         .then(data => setUsers(data.results))
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
     return (
         <div className="user-container" onLoad={() => props.handleCountUser(users)}>
